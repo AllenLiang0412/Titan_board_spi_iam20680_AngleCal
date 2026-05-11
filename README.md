@@ -200,11 +200,11 @@
 	}
 	
 	void data_exchange_thread_init(void)
-{
-    rt_thread_t data_exchange = rt_thread_create("data_exchange_thread", data_exchange_thread, RT_NULL, 4096, 10, 10);
-    if(data_exchange != RT_NULL)
-    {
-        rt_thread_startup(data_exchange);
-    }
-}
-INIT_APP_EXPORT(data_exchange_thread_init);
+	{
+	    rt_thread_t data_exchange = rt_thread_create("data_exchange_thread", data_exchange_thread, RT_NULL, 4096, 10, 10);
+	    if(data_exchange != RT_NULL)
+	    {
+	        rt_thread_startup(data_exchange);
+	    }
+	}
+	INIT_APP_EXPORT(data_exchange_thread_init);
