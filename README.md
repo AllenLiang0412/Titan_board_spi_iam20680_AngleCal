@@ -208,3 +208,7 @@
 	    }
 	}
 	INIT_APP_EXPORT(data_exchange_thread_init);
+
+串口shell打印结果
+![image](picture/shell.png)
+
